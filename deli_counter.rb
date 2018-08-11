@@ -10,7 +10,7 @@ end
 
 def now_serving(array) #informs the user who is currently being served
   if array.length > 0
-    puts "Currently serving #{array[0]}."
+    puts "Currently serving #{array.first}."
     array.shift
   else
     puts "There is nobody waiting to be served!"
